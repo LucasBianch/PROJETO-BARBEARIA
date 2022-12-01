@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style-LOGIN.css">
+
+</head>
+
+<body>
+  <div id="logo-button">
+  <img src="https://i.ibb.co/DWxxgYK/Sem-t-tulo-removebg-removebg-preview.png" alt="logo do site">
+</div>
+
+<div class="container">
+  <div id="LOG">
+      <h1>Login</h1>
+        <span class="close-btn">
+        <img src="../img/window-close-512.jpg" alt="botao-fechar">
+    </span>
+
+    <form>
+      <span class="nomelabel">Número de Telefone:</span>
+      <input type="tel" id="celphone" name="tellogin" placeholder="Digite seu número" onkeypress="$(this).mask('(00) 0000-00009')">
+      <span class="nomelabel">Senha:</span>
+      <input type="password" id="passw" name="pass" placeholder="Digite sua senha">
+      <button class="login-submit" onclick=" return validar()" ondblclick="openlogcli()"><a class="lg-cli" href="../Agendar.html">Login</a></button>
+      <div id="remember-container">
+        <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked">
+        <span id="remember">Lembre de mim</span>
+        <span id="forgotten">Esqueci a senha</span>
+        <span id="new">Cadastre-se</span>
+      </div>
+  </form>
+  </div>
+</div>
+
+<div id="cadastro">
+  <h1>Novo Cadastro</h1>
+  <span class="close-btn">
+    <img src="https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-4/512/window-close-512.png" alt="botao-fechar">
+  </span>
+
+  <form>
+    <span class="nomelabel">Nome Completo:</span>
+    <input type="text" id="name" name="nome" placeholder="Digite seu nome completo">
+    <span class="nomelabel">Número de Telefone: </span>
+    <input type="tel" id="telphone" name="telefone" placeholder="Digite um número de celular" onkeypress="$(this).mask('(00) 0000-00009')">
+    <span class="nomelabel">Crie uma senha:</span>
+    <input type="password" id="pass" name="pass" placeholder="Crie uma senha">
+    <span class="nomelabel">Repita a senha:</span>
+    <input type="password" id="repitpass" name="pass2" placeholder="Repita a senha">
+    <input type="checkbox" id="checkbox-3-1" class="checkbox">
+    <span class="contract">Li e concordo com os<a href="#"> Termos de uso.</a></span>
+    <button class="cad-submit" onclick="return validatenewregistration()">Enviar</button>
+  </form>
+  </div>
+
+<!-- Forgotten Password Container -->
+<div id="forgotten-LOG">
+   <h1>Nova senha</h1>
+  <span class="close-btn">
+    <img src="https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-4/512/window-close-512.png" alt="botao-fechar">
+  </span>
+      <span id="numbrecov">Número de Telefone:</span>
+    <input type="tel" id="newpassword" name="telforgotten" placeholder="Digite seu número" onkeypress="$(this).mask('(00) 0000-00000')">
+    <button class="pass-submit" onclick="return validadenewpassword()">Obter nova senha</button>
+</div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+    <script src="js/index-LOGIN.js"></script>
+    <script src="../js/validação.js"></script>
+</body>
+</html>

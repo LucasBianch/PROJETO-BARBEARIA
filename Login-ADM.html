@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/Style-developer.css">
+    <script src="https://kit.fontawesome.com/feb15434f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="login"></div>
+        <form class="card">
+            <div class="card-header">
+                <h2>Login</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="EMAIL">E-mail:</label>
+                    <input type="email" id="EMAIL" autocomplete="off">         
+                    <label for="password">Senha:</label>
+                    <input type="password" id="senha" autocomplete="off">            
+                    <button class="lg-adm" onclick=" return validarlogadm()" onclick=" return newtab()" ><a href="Administrador.html">Login</a></button>
+            </div>
+            <div class="card-footer"><a class="forget-passow" href="#" class="recuperar_senha">Esqueceu a senha?</a></div>
+        </form>
+    <script src="js/validação.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORTES - BARBA</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Style-developer.css">
+    <script src="https://kit.fontawesome.com/feb15434f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header><!--INÍCIO MENU NAV--> 
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="img/Logo_Cinza.png" alt="Logo" width="40" height="45" class="d-inline-block align-text-center"> BARBEARIA</a>
+            </div>
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+                  <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-scissors"></i> Cortes</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Corte-Barba.html">BARBA</a></li>
+                          <li><a class="dropdown-item" href="Corte-Cabelo.html">CABELO</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-list"></i> Produtos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Quem-Somos.html"><i class="fa-solid fa-users"></i> Quem Somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login-projeto/Login.html"><i class="fa-regular fa-user"></i> Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Login-ADM.html"><i class="fa-solid fa-user-tie"></i> Administrador</a>
+                      </li>                    
+                    </ul>
+                  </div>
+                </div>
+        </nav>
+    </header><!--FINAL MENU NAV--> 
+
+    <div id="container"> <!--INÍCIO CARD VITRINE-->
+         <h1 id="cortes-cabelo"> 💈   Cortes-Cabelo   💈</h1>        
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-01">
+                <h2 class="style-hair">Estilo #1</h2>
+                <img src="IMG-Cabelos/corte01-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(8)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-1">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(8)">&times;</span>
+                <div id="modal-qs-1-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-02">
+                <h2 class="style-hair">Estilo #2</h2>
+                <img src="IMG-Cabelos/corte02-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(9)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-2">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(9)">&times;</span>
+                <div id="modal-qs-2-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-03">
+                <h2 class="style-hair">Estilo #3</h2>
+                <img src="IMG-Cabelos/corte03-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(10)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-3">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(10)">&times;</span>
+                <div id="modal-qs-3-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-04">
+                <h2 class="style-hair">Estilo #4</h2>
+                <img src="IMG-Cabelos/corte04-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(11)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-4">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(11)">&times;</span>
+                <div id="modal-qs-4-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-05">
+                <h2 class="style-hair">Estilo #5</h2>
+                <img src="IMG-Cabelos/corte05-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(12)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-5">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(12)">&times;</span>
+                <div id="modal-qs-5-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-06">
+                <h2 class="style-hair">Estilo #6</h2>
+                <img src="IMG-Cabelos/corte06-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(13)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-6">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(13)">&times;</span>
+                <div id="modal-qs-6-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-07">
+                <h2 class="style-hair">Estilo #7</h2>
+                <img src="IMG-Cabelos/corte07-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(14)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-7">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(14)">&times;</span>
+                <div id="modal-qs-7-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mostruario-corte-cabelo" id="corte-cabelo-08">
+                <h2 class="style-hair">Estilo #8</h2>
+                <img src="IMG-Cabelos/corte08-vert.jpg" alt="corte01-img" class="img-most">
+            <div class="body-card-hair">
+                <p class="hair">Tempo de execução: 30 minutos</p>
+                <p class="hair">Preço: R$ 40,00 </p>
+               <button type="button" class="btn btn-dark">Agendar</button>
+               <button type="button" class="btn btn-info" onclick="showModal(15)">Detalhes</button>
+            <div class="modal-qs" id="modal-qs-8">
+                <div class="modal-content-qs">
+                    <span onclick="hideModal(15)">&times;</span>
+                <div id="modal-qs-8-content"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div><!--FINAL CARD VITRINE-->
+
+    <div class="containerF"><!--INÍCIO FOOTER-->
+        <footer class="d-flex flex-wrap align-items-center my-4 border-top">
+          <p id="paragrafooter" class="col-md-4 text-muted"> &copy; 2022, BARBEARIA - Desenvolvido por Grupo 3</p>
+            <ul class="nav col-md-5 justify-content-start">
+            <li class="ms-3"><a class="text-muted" href="#"><i id="Face" class="fa-brands fa-facebook-f"></i>   Barbearia</a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i id="Insta" class="fa-brands fa-instagram"></i> @Barbearia</a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i id="Whats" class="fa-brands fa-whatsapp"></i> (00) 9.9999-9999</a></li>
+            <li class="ms-3"><a id="phone" class="text-muted" href="#"><i id="Tel" class="fa-sharp fa-solid fa-phone"></i> (16) 0000-0000</a></li>
+          </ul>
+  
+          <div class="col-md-3 d-flex align-items-center mb-3 me-md-auto link-dark text-decoration-none">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14836.741848024654!2d-48.3601206!3d-21.6176956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70df7e81597e2d08!2sFatec%20Mat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1667346790579!5m2!1spt-BR!2sbr" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+      </div><!--FINAL FOOTER--> 
+    <!--JS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,675 @@
+/*INÍCIO CSS QUEM SOMOS*/    
+.container{
+    display: flex;
+    background-color: rgb(37, 37, 39, 0.500);
+    margin-top: 10px;
+    border: 1px solid rgb(37, 37, 39, 0.600);
+    border-radius: 10px;
+    height: 301px;
+    font-family: Helvetica, sans-serif;
+    box-shadow: 20px 10px 20px grey;
+}
+img{
+    display: inline;
+    border-right: 2px solid rgb(37, 37, 39, 0.600);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.Who{
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.prg-q-s{
+    display: inline;
+    color: white;
+    font-size: 13pt;
+    margin-left: 10px;
+    line-height: 30px;    
+}
+.containerF{
+    margin-top: 20px;
+}
+/*FINAL CSS QUEM SOMOS*/
+/*INÍCIO CSS CORTES BARBA E CABELO*/ 
+*{
+    left: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
+.mostruario-corte-barba, .mostruario-corte-cabelo{
+    width: 270px;
+    height: 390px;
+}
+#cortes-barba, #cortes-cabelo{
+    color: white;
+    margin-top: 10px;
+    background-color: rgb(37, 37, 39, 0.500); 
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+.row{
+    display: inline-flex;
+    background-color: rgb(37, 37, 39, 0.500); 
+    border-right: 2px solid rgb(37, 37, 39, 0.600);
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.style-beard, .style-hair{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16pt;
+}
+.img-most{
+    width: 250px;
+    height: 250px;
+}
+.body-card-beard .beard, .body-card-hair .hair{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.modal-content-qs{
+    display: grid;
+    background-color: white;
+    padding: 16px 24px;
+    width: 384px;
+    border-radius: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    margin-left: 30px;
+}
+.modal-content-qs{
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform  0.25s ease-in-out, opacity 0.25s ease-in-out ;
+  }/*FINAL CSS CORTES BARBA E CABELO*/  
+ 
+/*CSS LOGIN*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #454d6b;
+    font-family: Helvetica, sans-serif;
+}
+div#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+h2{    
+    text-align: center;
+}
+.card {
+    background-color: rgba(19, 19, 19, 0.616);
+    padding: 40px;
+    border-radius: 2px;
+    width: 300px;
+    margin: 0 auto;
+}
+.card-header {
+    padding-bottom: 20px;
+    opacity: 0.8;
+    color: white;
+}
+.card-header::after {
+    width: 60px;
+    height: 1px;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+.card-content label {
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.card-content-area { 
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.card-content-area input {  /*ÁREA DE USUARIO E SENHA*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:0 10px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+.lg-adm{ /*BOTAO DE LOGIN*/
+    width: 100%;
+    height: 40px;
+    background-color: #a13854;
+    border: none;
+    color: white;
+    margin: 10px 0;
+    cursor:pointer;
+}
+a{ /*ESTILO ESQUECEU A SENHA*/ 
+    text-align: center;
+    font-size: 10pt;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.forget-passow:hover{ /*MUDANÇA DE COR LINKS AO PASSAR MOUSE*/
+    font-size: 100%;
+    padding: 10px;
+    background-color:  rgb(24, 139, 233);
+    transition: .5s;
+}/*FIM CSS LOGIN*/
+/*INICIO CSS PGNA ADMINISTRADOR*/
+body.adm-body-ger{ 
+    width: 100%;
+}
+div.container-footer-adm .text-muted{
+    text-align: center;
+    margin-top: 5px;
+}
+.nav-link i{
+    margin-bottom: 5px;
+}
+.container-footer-adm{
+    clear: both;
+}
+.container-adm{
+    display: inline-flex;
+    float: left;
+}
+.bi {
+    fill: currentColor;
+}
+.container-corpo{
+   display: flex;
+   font-family: Helvetica, sans-serif;
+   flex-wrap: wrap;
+}
+.child-1{
+    width: 50%;
+    height: 355px;
+    border-right: 1px solid #212529;  
+    background-color: white; 
+}
+.child-2{
+    width: 50%;
+    height: 355px;
+}
+.child-3{
+    width: 50%;
+    height: 355px;
+    background-color: #454d6b;
+}
+.child-4{
+    width: 50%;
+    height: 355px;
+    background-color: #454d6b;
+    border-left: 1px solid black;
+}
+.h1-child{
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    background-color: rgb(37, 37, 39, 0.600);
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+    width: 98%;
+    margin: 20px 0 0 4px;
+}
+th{
+    border: 1px solid black;
+    background-color: rgba(34, 139, 34, 0.356);
+    color: black;
+    font-weight: bold;
+    padding: 10px ;
+}
+.adm-tds{
+    color: black;
+    border: 1px solid black;
+    padding: 5px ;
+    background-color: rgba(30, 143, 255, 0.192);
+}
+.adm-tds:hover{
+    cursor: default;
+    color: #000;
+    cursor: auto;
+}
+.cartao{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 34%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+    box-shadow: 2px 2px 1px black;
+}
+.card-adm-product, .card-adm-barber{
+    border: none;
+}
+h6{
+    background-color: rgb(37, 37, 39, 0.500);
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.edit{
+    padding: 8px;
+    font-weight: bold;
+    background-color: #636a70;
+    border: 1px solid #212529;
+
+}
+.edit:hover{
+    background-color: #2b73df;
+}
+.delete{
+    padding: 8px;
+    font-weight: bold;
+    background-color: #636a70;
+    border: 1px solid #212529;
+
+}
+.delete:hover{
+    background-color: #a13854b2;
+}
+button{
+    margin: 10px 0 0 10px;
+}
+.row-adm{
+    display: inline-flex;
+    width: 100%;
+    height: 90%;
+}
+.adc{
+    margin: 110px 0 0 30px;
+}
+.adc button{
+    background-color: #21252996;
+    padding: 15px;
+    border: 1px solid #212529;
+    border-radius: 30px;
+}
+.adc button i{
+    color: white;
+}
+.adc button:hover{
+    background-color: #2b73df;
+}
+
+/*FINAL CSS PGNA ADMINISTRADOR*/
+/*inicio css agendamento */
+/*INCIO lista de funcionarios*/
+li img#img-agend-01,img#img-agend-02, img#img-agend-03{
+    width: 95px;
+    height:95px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  a.corte-agendar:hover{
+    color: white;
+
+  }
+  /*FIM lista de funcionarios*/
+  /*inicio css calendario*/
+  div.agendamento{
+    color: white;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  div h2{
+    font-size: 20px;
+  }
+
+  td:hover{
+    cursor: pointer;
+  }
+
+  span a.roll{
+    font-size: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+
+  div.horas ul#horas li{
+    list-style: none;
+    display: inline;
+    background-color: var(--bs-body-bg);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+ul#funcionarios-agend li{
+    list-style: none;
+    display: inline-block;
+}
+
+div.claendario{
+    border: 2px solid black;
+    width: auto 300px;
+    height: auto;
+    padding: 25px;
+    margin: 125px;
+    border-radius: 10px;  
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.table-ag{
+    margin: auto;
+    text-align: center;
+    border-top: 15px solid black;
+    border-top: 15px solid black;
+    border: 5px solid black;
+    
+}
+td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+table.table-ag tr td:last-child{
+    border-right: none;
+}
+
+table.table-ag tbody tr td{
+    padding: 15px;
+    font-weight:bold;
+    background-color: #555;
+    color: white;
+}
+
+table.table-ag tfoot tr:last-child td:last-child{
+    border-bottom: none;
+}
+
+table.table-ag thead tr td{
+    background-color: #222;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+table.table-ag tbody tr:first-child td{
+    background-color: black;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+.table-ag tfoot{
+    background-color: #333;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+}
+  /*FIM css calendario*/
+  /*INICIO tabela de horarios*/
+  div.container-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 39, 0.600);
+    height: auto;
+    border-radius: 10px;
+}
+.horizontal-scroll{
+    width: 750px;
+    height: 80px;
+    background-color: rgb(37, 37, 39, 0.500);
+    border: 1px solid rgb(37, 37, 39, 0.500);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.horizontal-scroll .btn-scroll{
+    background-color: rgb(37, 37, 39, 0.600);
+    font-size: 20px;
+    color: white;
+    box-shadow:  0 0 10px #000;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    z-index: 1 ;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-scroll:hover{
+    color: #2b73df;
+    transition: 0.25s;
+}
+.storys-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transition: 0.5s all ease-out;
+}
+.story-circle{
+    background:linear-gradient(rgb(37,37,39,0.600),rgb(37,37,39,0.500));
+    width: 55px;
+    height: 55px;
+    margin: 15px  24.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(37, 37, 39, 0.600);
+    /*transform: rotateZ(-15deg);*/
+}
+.story-circle:hover{
+    color: #2b73df;
+    cursor: pointer;
+    transition: 0.25s;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(37, 37, 39, 0.500);
+}
+  /*FIM tabela de horarios*/
+#horarios-funcionarios{
+    padding: 15px;
+}
+div ul li:hover{
+    cursor: pointer;
+    color: #2b73df;
+    transition: 1s;
+}
+.row-client{
+    display: inline-flex;
+    background-color: rgb(37, 37, 39, 0.500); 
+    border-right: 2px solid rgb(37, 37, 39, 0.600);
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.img-agendar-adm{
+    width: 97%;
+    height: 250px;
+    margin-left: 6px;
+}
+/*FIM css agendamento */
+
+@media (max-width: 992px) {
+    .container{
+        display: block;
+        width: 100%;
+        height: 750px;
+        box-shadow: none;
+        padding: 0;
+    }
+    .img-q-s{
+        display: block;    
+        border: none; 
+        height: 450px;
+        width: 100%;      
+    }
+    .Who{
+        font-size: 16pt;
+        margin: 10px 0 10px 0;
+    }
+    .prg-q-s{
+        display: block;
+        font-size: 15pt;
+        line-height: 28px;
+        margin-left: 20px;
+    }
+    .row{   /*media cards vitrine pgna corte barba*/
+        margin-left: 100px;
+    }
+    .container-corpo{
+        font-size: 10pt;
+        height: 100%;
+    }
+    .child-1, .child-2, .child-3, .child-4{
+        width: 50%;
+        font-size: 10pt;
+    }
+    .h1-child{
+        font-size: 14pt;
+    }
+    .adc{
+        margin-right: 5px;
+    }
+    .edit, .delete{
+        font-size: 6pt;
+        display: inline;
+        margin-top: 20px;
+    }
+    h6{
+        font-size: 10pt;
+        margin-bottom: 10px;
+    }
+    .card-adm-product{
+        width: 100px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 780px) {
+    .container{
+        display: block;
+        width: 100%;
+        height: 650px;
+        box-shadow: none;
+        padding: 0;
+
+    }
+    .img-q-s{
+        display: block;    
+        border: none; 
+        height: 300px;
+        width: 100%;      
+    }
+    .Who{
+        font-size: 16pt;
+        margin: 10px 0 10px 0;
+    }
+    .prg-q-s{
+        display: block;
+        font-size: 12pt;
+        line-height: 28px;
+        margin-left: 20px;
+    }
+    .row{ /*media cards vitrine pgna corte barba*/
+        justify-content: center;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 648px) {
+    .row{ /*media cards vitrine pgna corte barba*/
+        margin-left: 20px;
+}
+}
+@media (max-width: 588px) {
+    .row{ /*media cards vitrine pgna corte barba*/
+        margin-left: 2px;
+}
+}
+@media (max-width: 552px) {
+    .row{ /*media cards vitrine pgna corte barba*/
+        margin-left: 0;
+}
+}
+@media (max-width: 548px) {
+    .row{ /*media cards vitrine pgna corte barba*/
+        margin-left: 130px;
+}
+}
+@media (max-width: 480px) {
+    .container{
+        display: block;
+        width: 100%;
+        height: 710px;
+        box-shadow: none;
+        padding: 0;
+
+    }
+    .img-q-s{
+        display: block;    
+        border: none; 
+        height: 250px;
+        width: 100%;      
+    }
+    .Who{
+        font-size: 14pt;
+        margin: 10px 0 10px 0;
+    }
+    .prg-q-s{
+        display: block;
+        font-size: 12pt;
+        line-height: 28px;
+        margin-left: 20px;
+    }
+    .row{ /*media cards vitrine pgna corte barba*/
+        margin-left: 50px;
+}
+}
