@@ -18,7 +18,8 @@ modalMessage.push("<img src='Abas/estilos-de-cortes-de-cabelo-img/corte 06.jpg' 
 function showModal(index){
     let idModal = `modal-qs-${index}`;
     let modal = document.getElementById(idModal);
-    modal.classList.add("show-modal");
+    //modal.classList.add("modal-dialog");
+    modal.style.display = "block";
     let idContentModal = `${idModal}-content`;
     let modalQSCcontent = document.getElementById(idContentModal);
     modalQSCcontent.innerHTML = getContentModal(index);
@@ -27,7 +28,8 @@ function showModal(index){
 function hideModal(index){
     let idModal = `modal-qs-${index}`;
     let modal = document.getElementById(idModal);
-    modal.classList.remove("show-modal");
+    //modal.classList.remove("show-modal");
+    modal.style.display = "none";
 }
 
 function getContentModal(index){
